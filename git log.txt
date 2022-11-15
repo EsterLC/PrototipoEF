@@ -1,0 +1,80 @@
+ester@LAPTOP-91CORHUE MINGW64 ~/OneDrive/Escritorio/PrototipoEF/PrototipoEF (main)
+$ git log
+commit 3c071a300f07074aa5ff555d2dcf8ed851f33851 (HEAD -> main, origin/main, origin/RamaScripts090119314, origin/HEAD, RamaScripts090119314)
+Author: Ester Lopez <esterlopez18@gmail.com>
+Date:   Tue Nov 15 14:50:08 2022 -0600
+
+    Agregando Scripts de la Base de Datos
+
+commit 15e269817fca2d063227056665044b895798f15f (origin/RamaTransaccional090119314, RamaTransaccional090119314)
+Author: Ester Lopez <esterlopez18@gmail.com>
+Date:   Tue Nov 15 14:41:29 2022 -0600
+
+    Subiendo bitacora
+
+commit 75e1a64eff53e0e3cb6daf7ede7c06fb3f2f4655 (origin/RamaMantenimientos090119314, RamaMantenimientos090119314)
+Author: Ester Lopez <esterlopez18@gmail.com>
+Date:   Tue Nov 15 13:40:43 2022 -0600
+
+    Subiendo mantenimientos
+
+commit fb2a5623a134126e91974c2510ec4f8e9db46976 (origin/RamaContenedor090119314, RamaContenedor090119314)
+:...skipping...
+commit 3c071a300f07074aa5ff555d2dcf8ed851f33851 (HEAD -> main, origin/main, origin/RamaScripts090119314, origin/HEAD, RamaScripts090119314)
+Author: Ester Lopez <esterlopez18@gmail.com>
+Date:   Tue Nov 15 14:50:08 2022 -0600
+
+    Agregando Scripts de la Base de Datos
+
+commit 15e269817fca2d063227056665044b895798f15f (origin/RamaTransaccional090119314, RamaTransaccional090119314)
+Author: Ester Lopez <esterlopez18@gmail.com>
+Date:   Tue Nov 15 14:41:29 2022 -0600
+
+    Subiendo bitacora
+
+commit 75e1a64eff53e0e3cb6daf7ede7c06fb3f2f4655 (origin/RamaMantenimientos090119314, RamaMantenimientos090119314)
+Author: Ester Lopez <esterlopez18@gmail.com>
+Date:   Tue Nov 15 13:40:43 2022 -0600
+
+    Subiendo mantenimientos
+
+commit fb2a5623a134126e91974c2510ec4f8e9db46976 (origin/RamaContenedor090119314, RamaContenedor090119314)
+Author: Ester Lopez <esterlopez18@gmail.com>
+Date:   Tue Nov 15 10:39:46 2022 -0600
+
+    Subiendo contenedor del MDI
+
+commit 7ac506c76e19776784e38b2ba407081bf3bf8866
+Author: Ester Lopez <esterlopez18@gmail.com>
+Date:   Tue Nov 15 09:27:31 2022 -0600
+
+    Subiendo carpetas al repositorio
+
+commit b25bf07c0f391e7d21ebb0a3eb3228ea0bd9f2b3 (origin/RamaDiagramas090119314, RamaDiagramas090119314)
+Author: Ester Lopez <esterlopez18@gmail.com>
+Date:   Tue Nov 15 09:23:14 2022 -0600
+
+    Subiendo diagrama de clases del proceso ingreso_notas
+
+commit 1bde6d068595297e2cdf3b6515fac47dcb1873b6
+Author: Ester Lopez <esterlopez18@gmail.com>
+Date:   Tue Nov 15 09:21:54 2022 -0600
+
+    Subiendo diagrama caso de uso del proceso ingreso_notas
+
+commit 596347572b5ef722178b95f60df9aaa6c11898c5
+Author: Ester Lopez <esterlopez18@gmail.com>
+Date:   Tue Nov 15 09:20:29 2022 -0600
+
+    Subiendo diagrama hijo del proceso ingreso_notas
+
+commit 57e1dd7e323a43b16b3015335f856df49ec7318c
+Author: Ester López <109314639+EsterLC@users.noreply.github.com>
+Date:   Tue Nov 15 07:36:34 2022 -0600
+
+    Initial commit
+~
+~
+~
+~
+(END)
