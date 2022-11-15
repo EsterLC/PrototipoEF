@@ -118,7 +118,8 @@ namespace Vista_Seguridad
 
         private void button1_Click(object sender, EventArgs e)
         {
-            showSubMenu(panelMantenimiento);
+            panelMantenimiento.Visible = true;
+
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -127,6 +128,22 @@ namespace Vista_Seguridad
             cn.setBtitacora("999", "Cerro Sesion");
             b.Show();
             this.Close();
+        }
+
+        private void btnEstadoCuenta_Click(object sender, EventArgs e)
+        {
+            Capa_Vista_EF.IngresarNotas b = new Capa_Vista_EF.IngresarNotas();
+            b.MdiParent = this;
+            b.Show();
+            cn.setBtitacora("7000", "Ingreso Bancos");
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Capa_Vista_EF.Cursos b = new Capa_Vista_EF.Cursos();
+            b.MdiParent = this;
+            b.Show();
+            cn.setBtitacora("7000", "Ingreso Bancos");
         }
     }
 }

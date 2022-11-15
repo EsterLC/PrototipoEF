@@ -30,18 +30,18 @@ namespace Vista_Seguridad
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.panelProcesos = new System.Windows.Forms.Panel();
+            this.panelMantenimiento = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
+            this.btnEstadoCuenta = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.btnMantenimientos = new System.Windows.Forms.Button();
             this.btnPartidasCont = new System.Windows.Forms.Button();
             this.Procesos = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.panelMantenimiento = new System.Windows.Forms.Panel();
-            this.btnEstadoCuenta = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panelProcesos.SuspendLayout();
             this.panelMantenimiento.SuspendLayout();
@@ -67,6 +67,80 @@ namespace Vista_Seguridad
             this.panel1.Size = new System.Drawing.Size(316, 583);
             this.panel1.TabIndex = 48;
             // 
+            // button6
+            // 
+            this.button6.Cursor = System.Windows.Forms.Cursors.Default;
+            this.button6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button6.FlatAppearance.BorderSize = 0;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
+            this.button6.Location = new System.Drawing.Point(0, 444);
+            this.button6.Margin = new System.Windows.Forms.Padding(4);
+            this.button6.Name = "button6";
+            this.button6.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.button6.Size = new System.Drawing.Size(316, 48);
+            this.button6.TabIndex = 15;
+            this.button6.Text = "Cerrar Sesión";
+            this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // button5
+            // 
+            this.button5.Cursor = System.Windows.Forms.Cursors.Default;
+            this.button5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
+            this.button5.Location = new System.Drawing.Point(0, 396);
+            this.button5.Margin = new System.Windows.Forms.Padding(4);
+            this.button5.Name = "button5";
+            this.button5.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.button5.Size = new System.Drawing.Size(316, 48);
+            this.button5.TabIndex = 14;
+            this.button5.Text = "Ayuda";
+            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Cursor = System.Windows.Forms.Cursors.Default;
+            this.button4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
+            this.button4.Location = new System.Drawing.Point(0, 348);
+            this.button4.Margin = new System.Windows.Forms.Padding(4);
+            this.button4.Name = "button4";
+            this.button4.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.button4.Size = new System.Drawing.Size(316, 48);
+            this.button4.TabIndex = 13;
+            this.button4.Text = "Herramientas";
+            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Cursor = System.Windows.Forms.Cursors.Default;
+            this.button2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
+            this.button2.Location = new System.Drawing.Point(0, 300);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
+            this.button2.Name = "button2";
+            this.button2.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.button2.Size = new System.Drawing.Size(316, 48);
+            this.button2.TabIndex = 12;
+            this.button2.Text = "Informes";
+            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // panelProcesos
             // 
             this.panelProcesos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(154)))), ((int)(((byte)(237)))), ((int)(((byte)(223)))));
@@ -79,6 +153,56 @@ namespace Vista_Seguridad
             this.panelProcesos.Size = new System.Drawing.Size(316, 156);
             this.panelProcesos.TabIndex = 8;
             this.panelProcesos.Visible = false;
+            // 
+            // panelMantenimiento
+            // 
+            this.panelMantenimiento.Controls.Add(this.button3);
+            this.panelMantenimiento.Controls.Add(this.btnEstadoCuenta);
+            this.panelMantenimiento.Location = new System.Drawing.Point(0, 55);
+            this.panelMantenimiento.Name = "panelMantenimiento";
+            this.panelMantenimiento.Size = new System.Drawing.Size(316, 100);
+            this.panelMantenimiento.TabIndex = 9;
+            this.panelMantenimiento.Visible = false;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.button3.Cursor = System.Windows.Forms.Cursors.Default;
+            this.button3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button3.Location = new System.Drawing.Point(0, 48);
+            this.button3.Margin = new System.Windows.Forms.Padding(4);
+            this.button3.Name = "button3";
+            this.button3.Padding = new System.Windows.Forms.Padding(40, 0, 0, 0);
+            this.button3.Size = new System.Drawing.Size(316, 48);
+            this.button3.TabIndex = 13;
+            this.button3.Text = "Cursos";
+            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // btnEstadoCuenta
+            // 
+            this.btnEstadoCuenta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btnEstadoCuenta.Cursor = System.Windows.Forms.Cursors.Default;
+            this.btnEstadoCuenta.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnEstadoCuenta.FlatAppearance.BorderSize = 0;
+            this.btnEstadoCuenta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEstadoCuenta.Font = new System.Drawing.Font("Arial Rounded MT Bold", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEstadoCuenta.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnEstadoCuenta.Location = new System.Drawing.Point(0, 0);
+            this.btnEstadoCuenta.Margin = new System.Windows.Forms.Padding(4);
+            this.btnEstadoCuenta.Name = "btnEstadoCuenta";
+            this.btnEstadoCuenta.Padding = new System.Windows.Forms.Padding(40, 0, 0, 0);
+            this.btnEstadoCuenta.Size = new System.Drawing.Size(316, 48);
+            this.btnEstadoCuenta.TabIndex = 12;
+            this.btnEstadoCuenta.Text = "Ingresar Notas";
+            this.btnEstadoCuenta.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEstadoCuenta.UseVisualStyleBackColor = false;
+            this.btnEstadoCuenta.Click += new System.EventHandler(this.btnEstadoCuenta_Click);
             // 
             // button1
             // 
@@ -154,128 +278,6 @@ namespace Vista_Seguridad
             this.Procesos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Procesos.UseVisualStyleBackColor = true;
             this.Procesos.Click += new System.EventHandler(this.Procesos_Click);
-            // 
-            // button2
-            // 
-            this.button2.Cursor = System.Windows.Forms.Cursors.Default;
-            this.button2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
-            this.button2.Location = new System.Drawing.Point(0, 300);
-            this.button2.Margin = new System.Windows.Forms.Padding(4);
-            this.button2.Name = "button2";
-            this.button2.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
-            this.button2.Size = new System.Drawing.Size(316, 48);
-            this.button2.TabIndex = 12;
-            this.button2.Text = "Informes";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // panelMantenimiento
-            // 
-            this.panelMantenimiento.Controls.Add(this.button3);
-            this.panelMantenimiento.Controls.Add(this.btnEstadoCuenta);
-            this.panelMantenimiento.Location = new System.Drawing.Point(0, 55);
-            this.panelMantenimiento.Name = "panelMantenimiento";
-            this.panelMantenimiento.Size = new System.Drawing.Size(316, 100);
-            this.panelMantenimiento.TabIndex = 9;
-            this.panelMantenimiento.Visible = false;
-            // 
-            // btnEstadoCuenta
-            // 
-            this.btnEstadoCuenta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.btnEstadoCuenta.Cursor = System.Windows.Forms.Cursors.Default;
-            this.btnEstadoCuenta.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnEstadoCuenta.FlatAppearance.BorderSize = 0;
-            this.btnEstadoCuenta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEstadoCuenta.Font = new System.Drawing.Font("Arial Rounded MT Bold", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEstadoCuenta.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnEstadoCuenta.Location = new System.Drawing.Point(0, 0);
-            this.btnEstadoCuenta.Margin = new System.Windows.Forms.Padding(4);
-            this.btnEstadoCuenta.Name = "btnEstadoCuenta";
-            this.btnEstadoCuenta.Padding = new System.Windows.Forms.Padding(40, 0, 0, 0);
-            this.btnEstadoCuenta.Size = new System.Drawing.Size(316, 48);
-            this.btnEstadoCuenta.TabIndex = 12;
-            this.btnEstadoCuenta.Text = "Ingresar Notas";
-            this.btnEstadoCuenta.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEstadoCuenta.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.button3.Cursor = System.Windows.Forms.Cursors.Default;
-            this.button3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button3.Location = new System.Drawing.Point(0, 48);
-            this.button3.Margin = new System.Windows.Forms.Padding(4);
-            this.button3.Name = "button3";
-            this.button3.Padding = new System.Windows.Forms.Padding(40, 0, 0, 0);
-            this.button3.Size = new System.Drawing.Size(316, 48);
-            this.button3.TabIndex = 13;
-            this.button3.Text = "Asignar Cursos Alumnos";
-            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // button4
-            // 
-            this.button4.Cursor = System.Windows.Forms.Cursors.Default;
-            this.button4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
-            this.button4.Location = new System.Drawing.Point(0, 348);
-            this.button4.Margin = new System.Windows.Forms.Padding(4);
-            this.button4.Name = "button4";
-            this.button4.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
-            this.button4.Size = new System.Drawing.Size(316, 48);
-            this.button4.TabIndex = 13;
-            this.button4.Text = "Herramientas";
-            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            this.button5.Cursor = System.Windows.Forms.Cursors.Default;
-            this.button5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
-            this.button5.Location = new System.Drawing.Point(0, 396);
-            this.button5.Margin = new System.Windows.Forms.Padding(4);
-            this.button5.Name = "button5";
-            this.button5.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
-            this.button5.Size = new System.Drawing.Size(316, 48);
-            this.button5.TabIndex = 14;
-            this.button5.Text = "Ayuda";
-            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // button6
-            // 
-            this.button6.Cursor = System.Windows.Forms.Cursors.Default;
-            this.button6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
-            this.button6.Location = new System.Drawing.Point(0, 444);
-            this.button6.Margin = new System.Windows.Forms.Padding(4);
-            this.button6.Name = "button6";
-            this.button6.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
-            this.button6.Size = new System.Drawing.Size(316, 48);
-            this.button6.TabIndex = 15;
-            this.button6.Text = "Cerrar Sesión";
-            this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // Menup
             // 
