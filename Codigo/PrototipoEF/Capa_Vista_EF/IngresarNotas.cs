@@ -33,5 +33,11 @@ namespace Capa_Vista_EF
             navegador1.actual = this;
             navegador1.cargar(dataGridView1, Grupotextbox, "notas");
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            AyudaIngresoNotas a = new AyudaIngresoNotas();
+            a.Show();
+        }
     }
 }

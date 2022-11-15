@@ -52,6 +52,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AyudaIngresoNotas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AyudaIngresoNotas.Designer.cs">
+      <DependentUpon>AyudaIngresoNotas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Cursos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,6 +76,9 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="AyudaIngresoNotas.resx">
+      <DependentUpon>AyudaIngresoNotas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Cursos.resx">
       <DependentUpon>Cursos.cs</DependentUpon>
     </EmbeddedResource>

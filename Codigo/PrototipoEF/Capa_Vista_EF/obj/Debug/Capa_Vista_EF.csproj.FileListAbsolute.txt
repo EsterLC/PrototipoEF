@@ -69,3 +69,4 @@ C:\Users\ester\OneDrive\Escritorio\PrototipoEF\PrototipoEF\Codigo\PrototipoEF\Ca
 C:\Users\ester\OneDrive\Escritorio\PrototipoEF\PrototipoEF\Codigo\PrototipoEF\Capa_Vista_EF\bin\Debug\Capa_Controlador_EF.dll
 C:\Users\ester\OneDrive\Escritorio\PrototipoEF\PrototipoEF\Codigo\PrototipoEF\Capa_Vista_EF\bin\Debug\Capa_Controlador_EF.pdb
 C:\Users\ester\OneDrive\Escritorio\PrototipoEF\PrototipoEF\Codigo\PrototipoEF\Capa_Vista_EF\obj\Debug\Capa_Vista_EF.Cursos.resources
+C:\Users\ester\OneDrive\Escritorio\PrototipoEF\PrototipoEF\Codigo\PrototipoEF\Capa_Vista_EF\obj\Debug\Capa_Vista_EF.AyudaIngresoNotas.resources

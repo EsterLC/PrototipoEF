@@ -39,7 +39,7 @@ namespace Vista_Seguridad
 
                 
                 Menup b = new Menup();
-                cn.setBtitacora("1", "Ingreso Login");
+                cn.setBtitacora("1000", "Ingreso Login");
                 b.Show();
                 this.Hide();
 

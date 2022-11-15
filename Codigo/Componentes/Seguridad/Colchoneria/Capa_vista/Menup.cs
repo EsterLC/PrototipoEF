@@ -135,7 +135,7 @@ namespace Vista_Seguridad
             Capa_Vista_EF.IngresarNotas b = new Capa_Vista_EF.IngresarNotas();
             b.MdiParent = this;
             b.Show();
-            cn.setBtitacora("7000", "Ingreso Bancos");
+            cn.setBtitacora("7000", "Ingresar Notas");
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -143,7 +143,15 @@ namespace Vista_Seguridad
             Capa_Vista_EF.Cursos b = new Capa_Vista_EF.Cursos();
             b.MdiParent = this;
             b.Show();
-            cn.setBtitacora("7000", "Ingreso Bancos");
+            cn.setBtitacora("7001", "Cursos");
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Bitacora b = new Bitacora();
+            b.MdiParent = this;
+            b.Show();
+            cn.setBtitacora("7002", "Bitacora");
         }
     }
 }

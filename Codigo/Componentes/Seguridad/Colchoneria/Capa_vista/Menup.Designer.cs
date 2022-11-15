@@ -42,6 +42,7 @@ namespace Vista_Seguridad
             this.btnMantenimientos = new System.Windows.Forms.Button();
             this.btnPartidasCont = new System.Windows.Forms.Button();
             this.Procesos = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panelProcesos.SuspendLayout();
             this.panelMantenimiento.SuspendLayout();
@@ -52,6 +53,7 @@ namespace Vista_Seguridad
             this.panel1.AutoScroll = true;
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(203)))), ((int)(((byte)(175)))));
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.panel1.Controls.Add(this.button7);
             this.panel1.Controls.Add(this.button6);
             this.panel1.Controls.Add(this.button5);
             this.panel1.Controls.Add(this.button4);
@@ -279,6 +281,25 @@ namespace Vista_Seguridad
             this.Procesos.UseVisualStyleBackColor = true;
             this.Procesos.Click += new System.EventHandler(this.Procesos_Click);
             // 
+            // button7
+            // 
+            this.button7.Cursor = System.Windows.Forms.Cursors.Default;
+            this.button7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button7.FlatAppearance.BorderSize = 0;
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
+            this.button7.Location = new System.Drawing.Point(0, 492);
+            this.button7.Margin = new System.Windows.Forms.Padding(4);
+            this.button7.Name = "button7";
+            this.button7.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.button7.Size = new System.Drawing.Size(316, 48);
+            this.button7.TabIndex = 16;
+            this.button7.Text = "Bitacora";
+            this.button7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
             // Menup
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -310,5 +331,6 @@ namespace Vista_Seguridad
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button7;
     }
 }
